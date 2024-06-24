@@ -1,0 +1,32 @@
+<!-- 
+    CREA UN FORMULARIO CON UN CAMPO DE TIPO TEXTO CON ESTAS CARACTERISTICAS:
+    -DEBE SER OBLIGATORIO
+    -MINIMO SE PUEDEN INTRODUCIR 3 CARAXTERES Y MAXIMO 10
+    -SOLO PODRAS METER ESPACIOS Y LETRAS DE LA A A LA Z EN MINUSCULA Y MAYUSCULA
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyecto 24 html</title>
+</head>
+
+<body>
+    <h1>formulario</h1>
+    <form action="">
+        <div>
+            <label for="obligatorio">Obligatorio:</label>
+            <br>
+            <input type="text" name="obligatorio" id="obligatorio" minlength="3" maxlength="10" required
+                pattern="[A-Za-z]+">
+        </div>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!-- 
+ Crea una tabla de personas,
+ la tabla debera tener tres columnas:
+ Nombre apellido y edad
+ 
+ Deben tener un encabezado de dichas columnas
+ Si una persona no tiene la edad añadida, la edad debe ocupar dos filas
+ La tabla debe tener un resumen o descripcion
+ -->
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 20 html</title>
+ </head>
+ <body>
+    <h1>Tabla de usuarios</h1>
+
+    <details summary="Usuarios registrados"> 
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+
+        <tr>
+            <td>Victor</td>
+            <td>robles</td>
+            <td rowspan="2">40</td>
+        </tr>
+
+        <tr>
+            <td>pepe</td>
+            <td>ramirez</td>
+           
+        </tr>
+
+        <tr>
+            <td>juan</td>
+            <td colspan="2
+            ">perez</td>
+            
+        </tr>
+    </table>
+</details>
+ </body>
+ </html>

@@ -1,0 +1,62 @@
+<!-- 
+CREA UN FORMULTIO CON UN CAMPO DE TIPO BUSQUEDA,
+TELEFONO, HORA, URL, BARRAPROGRESO, LISTA DE DATOS, SUBMIT Y RESET
+
+TODOS LOS CAMPOS DEBEN TENER UN LABEL
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyecto 23 html</title>
+</head>
+<body>
+    <h1>formulario</h1>
+    <form action="">
+        <div>
+            <label for="buscar">Buscar</label>
+            <input type="search" id="buscar">
+        </div>
+
+        <div>
+            <label for="telefono">Telefono:</label>
+            <input type="tel" name="telefono" id="telefono">
+        </div>
+
+        <div>
+            <label for="hora">Hora:</label>
+            <input type="time" name="hora" id="hora">
+        </div>
+
+        <div>
+            <label for="web">Web:</label>
+            <input type="url" name="web" id="web">
+        </div>
+
+        <div>
+            <label for="progreso">Progreso:</label>
+            <progress max="100" value="33">    
+        </div>
+
+        <div>
+            <label for="coches">coches:</label>
+            <input list="coches" name="coche"/>
+            <datalist id="coche">
+                <option value="Ford"></option>
+                <option value="Toyota"></option>
+                <option value="Renault"></option>
+                <option value="Seat"></option>
+            </datalist>
+            <br>
+
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpiar">
+        </div>
+
+
+
+    </form>
+    
+</body>
+</html>
